@@ -33,5 +33,10 @@ if 'papperoni' in requested_toppings:
 if 'extra chesse' in requested_toppings:
     print('adding extra chesse')
 
-
-
+age = 17
+if age >= 18:
+    print('hop hey')
+elif age == 17:
+    print('mayby hop hey')
+else:
+    print('no hop hey')
